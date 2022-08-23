@@ -32,7 +32,8 @@ global.APIs = { // API Prefix
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   violetics: 'https://violetics.pw',
   hadi: 'http://hadi-api.herokuapp.com'
-  luxxyxyz- 'https://restapikeyf.herokuapp.com'
+  luxxyxyz: 'https://restapikeyf.herokuapp.com'
+  luxxyvfx: 'https://restapikeyf.herokuapp.com/docs'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
