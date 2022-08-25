@@ -18,8 +18,8 @@ global.owner = [
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
-global.lolkey = 'YourApikey'
-global.xkey = 'YourApikey'
+global.lolkey = '45d5c08a462ffadca6165881'
+global.xkey = '45d5c08a462ffadca6165881'
 global.APIs = { // API Prefix
   // name: 'https://website'
   lolhuman: 'https://api.lolhuman.xyz',
