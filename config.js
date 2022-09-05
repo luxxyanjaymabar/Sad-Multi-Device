@@ -18,31 +18,43 @@ global.owner = [
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
-global.lolkey = '45d5c08a462ffadca6165881'
-global.xkey = '45d5c08a462ffadca6165881'
+global.lolkey = 'Apikey'
+global.xkey = 'Apikey'
 global.APIs = { // API Prefix
   // name: 'https://website'
-  lolhuman: 'https://api.lolhuman.xyz',
   nrtm: 'https://nurutomo.herokuapp.com',
-  bg: 'http://bochil.ddns.net',
+  rey: 'https://server-api-rey.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
+  lol: 'https://api.lolhuman.xyz',
+  dhnjing: 'https://dhnjing.xyz',
+  neoxr: 'https://neoxr-api.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
   pencarikode: 'https://pencarikode.xyz',
+  ana: 'https://anabotofc.herokuapp.com/',
+  amel: 'https://melcanz.com',
+  bsbt: 'https://bsbt-api-rest.herokuapp.com', 
+  hardianto: 'https://hardianto.xyz',
+  botstyle: 'https://botstyle-api.herokuapp.com',
+  adiisus: 'https://adiixyzapi.herokuapp.com',
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
-  violetics: 'https://violetics.pw',
-  hadi: 'http://hadi-api.herokuapp.com'
-  luxxyxyz: 'https://restapikeyf.herokuapp.com'
-  luxxyvfx: 'https://restapikeyf.herokuapp.com/docs'
+  kanx: 'https://kannxapi.herokuapp.com/'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'YourApikey',
+  'https://api.xteam.xyz': 'NezukoTachibana281207',
+  'https://anabotofc.herokuapp.com/': 'AnaBot',
+  'https://api.lolhuman.xyz': 'Papah-Chan',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.me': 'apivinz',
+  'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://violetics.pw': 'beta'
+  'https://melcanz.com': 'gedFijw7',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://botstyle-api.herokuapp.com': 'Fa2GhFnr',
+  'https://bsbt-api-rest.herokuapp.com': 'benniismael',
+  'https://hardianto.xyz': 'hardianto',
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 global.wm = '                「 Luccy BOT あ⁩ 」' //Main Watermark
 
