@@ -834,8 +834,8 @@ export async function participantsUpdate({ id, participants, action }) {
                         ppgc = await this.profilePictureUrl(id, 'image')
                     } catch (e) {
                     } finally {
-                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') :
-                            (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', await this.getName(user))
+                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yahh bebannya nambah:(, Selamat Datang Wahai Beban, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') :
+                            (chat.sBye || this.bye || conn.bye || 'Bye beban, @user!, Nitip Gorengan Ya 1000 Buat Satu Gc Ini>,<')).replace('@user', await this.getName(user))
               let wel = await new knights.Welcome()
                 .setUsername(this.getName(user))
                 .setGuildName(groupMetadata.subject)
@@ -855,7 +855,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 .toAttachment()
                             
                         // this.sendFile(id, action === 'add' ? wel : lea, pp, 'pp.jpg', text, null, false, { mentions: [user] })
-                       await this.sendHydrated(id, text, wm, action === 'add' ? wel.toBuffer() : lea.toBuffer(), sgc, (action == 'add' ? ' Welcome 👋' : 'Sayonaraa 👋'), user.split`@`[0], 'USER NUMBER', [
+                       await this.sendHydrated(id, text, wm, action === 'add' ? wel.toBuffer() : lea.toBuffer(), sgc, (action == 'add' ? ' Hai Beban 👋' : 'Bye Beban, Jgn Lupa Gorengannya 👋'), user.split`@`[0], 'USER NUMBER', [
       [null, null],
       [null, null]
     ], null, false, { mentions: [user] })
